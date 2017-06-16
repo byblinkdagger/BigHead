@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blink.dagger.bighead.view.activity.AboutActivity">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="Big Head (胖头鱼)"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/divider"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="关于本应用：\n\n定期更新优质文章、影视、音乐和妹纸图片\n数据api均来自网络抓包，若有侵权即刻删除\n"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:autoLink="web"
+        android:text="Thanks：\n\nhttps://github.com/jokermonn/-Api\ngank api\nretrofit\nkotlin\nglide\n···"
+        android:textSize="14dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="4dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:padding="2dp"
+            android:background="@color/divider"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_gaki"/>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+    
+</LinearLayout>
