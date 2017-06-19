@@ -29,7 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:text="关于本应用：\n\n定期更新优质文章、影视、音乐和妹纸图片\n数据api均来自网络抓包，若有侵权即刻删除\n"
+        android:autoLink="web"
+        android:text="关于本应用：\nhttps://github.com/byblinkdagger/BigHead\n\n定期更新优质文章、影视、音乐和妹纸图片\n数据api均来自网络抓包，若有侵权即刻删除\n"
         android:textSize="14dp"/>
 
     <TextView
